@@ -13,14 +13,9 @@ from langdetect import detect
 language_code='vi_VI'
 target_lang= 'ja'
 
-    st.radio(
-        "Input type",
-        ["Mic", "Text", "Audio File"],
-        key="visibility",
-        label_visibility=st.session_state.visibility,
-        disabled=st.session_state.disabled,
-        vertical=st.session_state.vẻtical,
-    )
+genre = st.radio(
+    "Input Type",
+    ('Mic', 'Text', 'Audio File'))
 
 while True:
   # Recognize speech

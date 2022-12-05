@@ -1,11 +1,6 @@
 import streamlit as st
 import pandas as pd
-from googletrans import Translator
-from playsound import playsound
-import speech_recognition as sr
-from gtts import gTTS
-import os
-from langdetect import detect
+
 
 
 genre = st.radio(

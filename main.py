@@ -6,7 +6,7 @@ import streamlit as st
 import pandas as pd
 warnings.filterwarnings("ignore")
 
-st.image('wine.jpg')
+
 st.title('Dự đoán chất lượng rượu vang: ')
 col1, col2, col3 =st.columns(3)
 

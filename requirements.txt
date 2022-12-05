@@ -4,5 +4,3 @@ scikit-learn==1.0.2
 streamlit==1.7.0
 lst==0.2.11
 scipy==1.7.3
-playsound==2.0.0
-gtts==2.1.0

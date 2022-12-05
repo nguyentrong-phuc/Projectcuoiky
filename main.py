@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
-
+from playsound import playsound
+import speech_recognition as sr
+from gtts import gTTS
+import os
+import streamlit as st
 
 
 genre = st.radio(

@@ -1,4 +1,4 @@
-from googletrans import Translator
+
 from playsound import playsound
 import speech_recognition as sr
 from gtts import gTTS

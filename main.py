@@ -13,9 +13,7 @@ from langdetect import detect
 language_code='vi_VI'
 target_lang= 'ja'
 
-genre = st.radio(
-    "Input Type",
-    ('Mic', 'Text', 'Audio File'))
+
 
 while True:
   # Recognize speech

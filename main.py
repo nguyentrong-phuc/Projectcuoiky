@@ -38,7 +38,7 @@ while True:
     print("You said :", text)
 
     # Translate
-    #translator = Translator()
+    translator = Translator()
     translation = translator.translate(text, dest=target_lang)#  , isrc='vi'
     trans = translation.text
     print(trans)

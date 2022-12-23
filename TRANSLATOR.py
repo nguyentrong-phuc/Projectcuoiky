@@ -93,9 +93,7 @@ if IPtype == 'Audio File':
             audio_bytes = uploaded_file.read()
             st.audio(audio_bytes, format='audio / wav')
         #speech to text
-        st.write(uploaded_file.read())
-        st.write(uploaded_file.name)
-        file_name = uploaded_file.name#'dst.wav'
+        file_name = uploaded_file.name
         v = sr.Recognizer()
         with sr.AudioFile(uploaded_file.name) as source:
             audio_data = v.record(source)

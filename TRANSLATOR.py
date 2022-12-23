@@ -97,7 +97,7 @@ if IPtype == 'Audio File':
         v = sr.Recognizer()
         with sr.AudioFile(uploaded_file.name) as source:
             audio_data = v.record(source)
-        in_text = v.recognize_google(audio_data)
+        in_text = v.recognize_google(audio_data,language=Yourlang)
         #translate
         translator = Translator()
         translation = translator.translate(in_text, dest=Targlang)
